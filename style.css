@@ -2,3 +2,37 @@ body{
     background-color: white;
     color: black;
 }
+
+/* ========================================================= */
+
+/* NAVBAR */
+.nav-link, .navbar-brand {
+    font-size: 1.em !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 0.2em;
+    font-family: 'Source Code Pro', monospace;
+}
+/* Tab Styles */
+
+.nav-tabs {
+    font-size: 1.em !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 0.2em;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.nav-tabs li a {
+    color: #FFFFFA !important;
+    background-color: #6096BA !important;
+}
+
+.tab-content {
+    background-color: #FFFFFA;
+}
+
+.nav-tabs li a:hover,
+.nav-tabs li.active a {
+    color: #6096BA !important;
+    background-color: #FFFFFA !important;
+}
+/* ========================================================= */
