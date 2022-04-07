@@ -41,7 +41,7 @@ body {
 /* -------------------------------------------------------------- */
 /*
 677f92 - blue/gray
-
+9badbc - light blue
 
 /* Color Rules */
 /* body {
@@ -58,6 +58,9 @@ body {
 .title_text {
     color:white;
     font-size: 12vw;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.12); */
+    text-shadow:  4px 4px 1px #667b99;
 }
 
 
@@ -67,8 +70,8 @@ body {
 }
 
 .bg2 {
-    background-color: #7f868d;
-    color: #DDFFF7;
+    background-color: #9badbc;
+    color: white;
 }
 
 .bg3 {
@@ -126,35 +129,37 @@ a:hover {
 }
 
 /* -------------------------------------------------------------- */
-/* Misc. */
-.button {
-    padding: .5em;
-    border-radius: 8px;
-    background-color: white;
-    color: #ff7b57;
-    border-color: transparent;
-    font-family: 'Quicksand', sans-serif;
-
-}
-
-.button:hover {
-    background-color: #ff7b57;
-    color: white;
-}
-
+/* Nav Bar. */
 .navbar-brand {
     color: #667b99;
     background-color: white;
     padding: .25em;
     border-radius: 8px;
+    font-weight: 500;
 }
 
 .navbar-brand:hover {
     color: #667b99;
     padding: .25em;
     border-radius: 8px;
-/*    text-decoration:underline;*/
-    transform: scale(1.10);
+    transform: scale(1.02);
+    font-weight: 500;
+}
+
+.nav-item {
+    padding-left: 1em;
+}
+
+.nav-item:hover {
+    background-color: #667b99;
+}
+
+.nav-link{
+    color: #677f92;
+}
+.nav-link:hover {
+    color: white;
+    border-radius: 8;
 }
 
 .toggle {
@@ -178,25 +183,24 @@ a:hover {
 
 }
 
-.contactimage {
-    opacity: 40%;
+
+/* -------------------------------------------------------------- */
+/* Misc. */
+.button {
+    padding: .5em;
+    border-radius: 8px;
+    background-color: white;
+    color: #ff7b57;
+    border-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
-.nav-item {
-    padding-left: 1em; */
-}
-
-.nav-item:hover {
-    background-color: #667b99;
-}
-
-.nav-link{
-    color: #677f92;
-}
-.nav-link:hover {
+.button:hover {
+    background-color: #ff7b57;
     color: white;
-    border-radius: 8;
 }
+
 hr{
         height: 1px;
         background-color: #DDFFF7;
