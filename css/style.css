@@ -1,0 +1,202 @@
+/*
+    style.css
+*/
+
+/* -------------------------------------------------------------- */
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+/* font-family: 'League Gothic', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+/* -------------------------------------------------------------- */
+/*
+font-family: 'Fugaz One', cursive;
+font-family: 'Quicksand', sans-serif;
+*/
+/* Page Level Rules */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'League Gothic', sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* -------------------------------------------------------------- */
+/* Section Level Rules */
+
+.section-spacing {
+    padding: 1em
+}
+
+
+/* -------------------------------------------------------------- */
+/*
+677f92 - blue/gray
+
+
+/* Color Rules */
+body {
+    background-color: #7f868d;
+    color: #878E99;
+
+}
+
+.title {
+    background-size:100%;
+    background-position: 50% 50%;
+}
+
+.title_text {
+    color:white;
+    font-size: 12vw;
+}
+
+
+.bg1 {
+    background-color: #677f92;
+    color: #ffffff;
+}
+
+.bg2 {
+    background-color: #7f868d;
+    color: #DDFFF7;
+}
+
+bg3 {
+    background-color: white;
+    color: #ff7b57
+}
+
+a {
+    color: #ff7b57;
+}
+
+a:hover {
+    color: #ff7b57;
+}
+
+/* -------------------------------------------------------------- */
+/* Text Rules */
+
+/* utility class to center text */
+.text-center {
+    text-align: center;
+}
+
+/* -------------------------------------------------------------- */
+/* Image Rules */
+
+/* utility class to center image */
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* utility class to right align an image */
+.float-left {
+    float: left;
+    padding: 10px;
+}
+
+/* utility class to left align an image */
+.float-right {
+    float: right;
+    padding: 10px;
+}
+
+/* hack utility class to clear an image "overflow" */
+.clearfix {
+    overflow: auto;
+}
+
+/* -------------------------------------------------------------- */
+/* Misc. */
+.button {
+    padding: .5em;
+    border-radius: 8px;
+    background-color: white;
+    color: #ff7b57;
+    border-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.button:hover {
+    background-color: #ff7b57;
+    color: white;
+}
+
+.navbar-brand {
+    color: #667b99;
+    background-color: white;
+    padding: .25em;
+    border-radius: 8px;
+}
+
+.navbar-brand:hover {
+    color: #667b99;
+    padding: .25em;
+    border-radius: 8px;
+/*    text-decoration:underline;*/
+    transform: scale(1.10);
+}
+
+.toggle {
+    color: #667b99;
+    background-color: white;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-left: .5em;
+    padding-right: .5em;
+    border-radius: 8px;
+}
+
+.toggle:hover {
+    color: white;
+    background-color: #667b99;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-left: .5em;
+    padding-right: .5em;
+    border-radius: 8px;
+
+}
+
+.contactimage {
+    opacity: 40%;
+}
+
+.nav-item {
+    padding-left: 1em; */
+}
+
+.nav-item:hover {
+    background-color: #667b99;
+}
+
+.nav-link:hover {
+    color: white;
+    border-radius: 8;
+}
+hr{
+        height: 1px;
+        background-color: #DDFFF7;
+        border: none;
+        border-radius: 8px;
+    }
