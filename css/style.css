@@ -44,11 +44,11 @@ body {
 
 
 /* Color Rules */
-body {
+/* body {
     background-color: #7f868d;
     color: #878E99;
 
-}
+} */
 
 .title {
     background-size:100%;
@@ -71,9 +71,9 @@ body {
     color: #DDFFF7;
 }
 
-bg3 {
+.bg3 {
     background-color: white;
-    color: #ff7b57
+    color: #677f92
 }
 
 a {
@@ -190,6 +190,9 @@ a:hover {
     background-color: #667b99;
 }
 
+.nav-link{
+    color: #677f92;
+}
 .nav-link:hover {
     color: white;
     border-radius: 8;
