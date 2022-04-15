@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     
+        <script src="https://kit.fontawesome.com/4d529d6e0b.js" crossorigin="anonymous"></script>
     </head>
     
 <body>
@@ -20,7 +21,7 @@
     <br>
     <br>
 
-    <nav class="navbar fixed-top navbar-expand-md bg3">
+    <nav class="navbar fixed-top navbar-expand-lg bg3">
         <div class="container">
             <a class="navbar-brand" href="#top">Annelise Francey</a>
 
@@ -66,12 +67,14 @@
     </div>
 
     <!-- CONTACT -->
-    <section id="contact" class="bg3">
-        <div class="container p-3">
-            <h1>Contact Me</h1>
+    <section id="contactLink" class="bg3">
+        <div class="container pt-0 pb-2">
             <div class="row">
-                <div class="col-12 d-flex align-items-left">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="col-12 text-center">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <!-- ---<a href="#contact">Contact Me</a>--- -->
+            
                 </div>
             </div>
         </div>
@@ -82,10 +85,36 @@
         <div class="container p-3">
             <h1>About Me</h1>
             <div class="row">
-                <div class="col-12 d-flex align-items-left">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="col-md-8 d-block align-items-left">
+                    <p>&emsp;I'm currently a 3rd year student at 
+                        <a href="https://www.ithaca.edu/" target=_blank>Ithaca College</a>
+                        working towards a Bachelor's of Science in Emerging Media.
+                        &ensp;After school, I'd like to go into a creative profession.
+                        <br>Some of my interests include:</p> 
+                    <p>
+                        <ul>
+                            <li>
+                                illustration
+                            </li>
+                            <li>
+                                design
+                            </li>
+                            <li>
+                                concept art
+                            </li>
+                            <li>
+                                programming
+                            </li>
+                            <li>
+                                web developement
+                            </li>
+                        </ul>
+                    </p>   
                 </div>
-            </div>
+                <div class="col-md-4 d-flex align-items-center">   
+                    <img class="rounded-circle d-block img-fluid mx-auto" src="https://generative-placeholders.glitch.me/image?width=350&height=350&style=joy-division&colors=24">
+                </div>
+            </div> 
         </div>
     </section>
 
@@ -95,7 +124,7 @@
             <h1>Education</h1>
             <div class="row">
                 <div class="col-12 d-flex align-items-left">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum  <a href="https://www.ithaca.edu/" target=_blank>Ithaca College</a>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
         </div>
@@ -125,7 +154,26 @@
         </div>
     </section>
 
-    <!-- FOOTER -->
+      <!-- FOOTER -->
+    <section id="contact" class="footer">
+        <div class="container p-3">
+            <h1>Contact Me</h1>
+            <div class="row">
+                <form action= "mailto:someone@example.com" method="post" enctype="text/plain"”
+                method=”POST”
+                enctype=”multipart/form-data”
+                name=”EmailForm”>
+                
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <input class="button-submit" type="submit" value="Submit">
+                  </form>
+            </div>
+        </div>
+    </section>
+
 
     <footer class="text-center">
         <div class="container p-3">
