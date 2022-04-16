@@ -30,6 +30,10 @@ body {
     font-family: 'Roboto', sans-serif; 
 }
 
+.bold{
+    font-weight:700;
+}
+
 /* -------------------------------------------------------------- */
 /* Section Level Rules */
 
@@ -46,14 +50,7 @@ C4663F - rust
 FD9B7F - salmon
 FFE436 - yellow
 
-
 /* Color Rules */
-/* body {
-    background-color: #7f868d;
-    color: #878E99;
-
-} */
-
 .title {
     background-size:100%;
     background-position: 50% 50%;
@@ -90,7 +87,7 @@ FFE436 - yellow
 }
 
 .bg1 a:hover,.bg1  a:link:hover,.bg1  a:visited:hover {
-    color: #FD9B7F;
+    color: #FD9B7F  ;
 }
 
 .bg2 a ,.bg2  a:link ,.bg2  a:visited {
@@ -98,7 +95,50 @@ FFE436 - yellow
 }
 
 .bg2 a:hover,.bg2  a:link:hover,.bg2  a:visited:hover {
-    color: #C4663F;
+    color: #C4663F ;
+}
+
+/* -------------------------------------------------------------- */
+/* Accordian */
+.accordion button {
+    color: #677f92 ;
+    font-weight:700;
+    font-family: 'Roboto', sans-serif;
+}
+.accordion button:hover {
+    color: #C4663F ;
+}
+
+.accordion .card {
+    background-color:#9badbc  ;
+}
+
+.accordion .card-header {
+    background-color: white;
+}
+
+/* -------------------------------------------------------------- */
+/* icons */
+
+@media (max-width: 992px) {
+    .fa-instagram, .fa-envelope-open-text{
+        font-size: 1.5em;
+    }
+}
+@media (min-width: 992px) {
+    .fa-instagram, .fa-envelope-open-text{
+        font-size: 2em;
+    }
+}
+.fa-instagram, .fa-envelope-open-text{
+    color:#677f92;
+    padding: .3em;
+    margin:.1em;
+}
+.fa-instagram:hover, .fa-envelope-open-text:hover{
+    color:#ffffff;
+    background-color: #677f92;
+    border-radius:50%;
 }
 
 /* -------------------------------------------------------------- */
@@ -149,27 +189,11 @@ FFE436 - yellow
     margin-right:1em;
 }
 
-.icons{
-    color:blue;
-}
 /* -------------------------------------------------------------- */
 /* Nav Bar. */
 
 .navbar-brand {
     color: #677f92 !important;
-    background-color: white;
-    padding: .25em;
-    border-radius: 8px;
-    font-weight: 500;
-}
-
-.navbar-brand:hover {
-    color: #C4663F !important; 
-    padding: .25em;
-    border-radius: 8px;
-    
-    
-    /* transform: scale(1.02); */
     font-weight: 500;
 }
 
@@ -180,8 +204,8 @@ FFE436 - yellow
 }
 
 .nav-item:hover {
-    background-color: #9badbc !important;
-    border-radius: 2em;
+    background-color: #9badbc   !important;
+    border-radius: .75em;
 }
 
 .nav-link{
@@ -195,7 +219,7 @@ FFE436 - yellow
 .toggle {
     color: #677f92;
     background-color: white;
-    padding-top: .25em;
+    padding-top: .2em;
     padding-bottom: .25em;
     padding-left: .5em;
     padding-right: .5em;
@@ -205,11 +229,11 @@ FFE436 - yellow
 .toggle:hover {
     color: white;
     background-color: #9badbc;
-    padding-top: .25em;
+    padding-top: .2em;
     padding-bottom: .25em;
     padding-left: .5em;
     padding-right: .5em;
-    border-radius: 8px;
+    border-radius: .5em;
 
 }
 
