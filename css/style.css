@@ -350,9 +350,15 @@ img {
 }
 
 hr{
-        height: 1px;
-        background-color: #677f92;
-        border: none;
-        border-radius: 8px;
-    }
+    height: 1px;
+    background-color: #677f92;
+    border: none;
+    border-radius: 8px;
+}
 
+:target { /* makes it so nav bar doesn't cut off header */
+    display: block;
+    position: relative;
+    top: -30px; /* this is your offset */
+    visibility: hidden;
+  }
