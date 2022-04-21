@@ -191,7 +191,28 @@ FFE436 - yellow
     margin: 0em;
 }
 
+/* -------------------------------------------------------------- */
+/* Form */
 
+form{
+    display:grid;
+}
+.inlineRadio {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input[type="submit"]{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.required:after {
+    content:" *";
+    color: #FD9B7F;
+    font-weight: 600;
+}
 
 /* -------------------------------------------------------------- */
 /* Image Rules */
