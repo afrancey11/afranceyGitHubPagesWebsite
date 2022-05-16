@@ -118,12 +118,15 @@ FFE436 - yellow
 }
 
 .accordion .card {
-    background-color:#677f92;
+    background-color:#677f9286;
+    border-width: 0;
 }
 
 .accordion .card-header {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.90);
     padding: .5em;
+    border-width: 2px;
+    border-top-color: #9badbcc0;
 }
 
 :focus { /*removes blue highligh around text*/
