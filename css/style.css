@@ -104,6 +104,10 @@ FFE436 - yellow
     color: #FD9B7F ;
 }
 
+.bg3 a:hover,.bg3  a:link:hover,.bg3  a:visited:hover {
+    text-decoration: none;
+}
+
 /* -------------------------------------------------------------- */
 /* Accordian */
 
@@ -140,19 +144,19 @@ FFE436 - yellow
 
 .tooltip-inner{
     color:#32424f ;
-    background-color: #9badbc77 ;
+    background-color: #9badbc ;
     transform: translateY(-.25em);
 }
 .bs-tooltip-auto[x-placement^=left] .arrow::before, .bs-tooltip-left .arrow::before {
-    border-left-color: #9badbc77  !important;
+    border-left-color: #9badbc  !important;
     transform: translateY(-.25em);
 }
 .bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {
-    border-right-color: #9badbc77  !important;
+    border-right-color: #9badbc  !important;
     transform: translateY(-.25em);
 }
 .webTool .bs-tooltip-auto[x-placement^=bottom] .arrow::before, .bs-tooltip-bottom .arrow::before {
-    border-bottom-color: #9badbc77 !important;
+    border-bottom-color: #9badbc !important;
     transform: translateY(-.25em);
 }
 
@@ -160,22 +164,22 @@ FFE436 - yellow
 /* Icons */
 
 @media (max-width: 992px) {
-    .fa-instagram, .fa-linkedin, .fa-envelope-open-text{
+    .fa-instagram, .fa-linkedin, .fa-github, .fa-envelope-open-text{
         font-size: 1.5em;
     }
 }
 @media (min-width: 992px) {
-    .fa-instagram, .fa-linkedin, .fa-envelope-open-text{
+    .fa-instagram, .fa-linkedin, .fa-github, .fa-envelope-open-text{
         font-size: 2em;
         
     }
 }
-.fa-instagram, .fa-linkedin, .fa-envelope-open-text{
+.fa-instagram, .fa-linkedin, .fa-github, .fa-envelope-open-text{
     color:#677f92;
     padding: .3em;
     margin:.1em;
 }
-.fa-instagram:hover, .fa-linkedin:hover, .fa-envelope-open-text:hover{
+.fa-instagram:hover, .fa-linkedin:hover,.fa-github:hover, .fa-envelope-open-text:hover{
     color:#ffffff;
     background-color: #677f92;
     border-radius:50%;
@@ -208,6 +212,7 @@ form{
     display:block;
     margin-left: auto;
     margin-right: auto;
+    filter: saturate(.1);
 }
 
 form input[type="submit"]{
