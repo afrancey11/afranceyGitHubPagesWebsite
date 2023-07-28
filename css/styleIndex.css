@@ -1,0 +1,374 @@
+/*
+    styleIndex.css
+*/
+
+/* -------------------------------------------------------------- */
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@700&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+/* -------------------------------------------------------------- */
+/* Page Level Rules */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    color: black;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+
+h4 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #3a3a3a;
+}
+
+
+/* -------------------------------------------------------------- */
+/* Section Level Rules */
+
+.section-spacing {
+    padding: 1em
+}
+
+.bg1 {
+    background-color: #f0f0f0;
+    padding: 2em;
+}
+
+.menuShadow {
+    /*apply to onject right of menu */
+    box-shadow: 5px 0px 8px 0 rgba(63, 69, 81, 0.16) inset;
+}
+
+/* -------------------------------------------------------------- */
+/* ScrollBar */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: black;
+    border: 3px solid white;
+}
+
+/* -------------------------------------------------------------- */
+/* Links */
+.xyCenter>a {
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.xyCenter>a:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a {
+    color: black;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+/* -------------------------------------------------------------- */
+/* Text Rules */
+
+/* utility class to center text */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.pPad0 {
+    margin: 0em;
+}
+
+/* -------------------------------------------------------------- */
+/* Image Rules */
+
+/* utility class to center image */
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* utility class to right align an image */
+.float-left {
+    float: left;
+    padding: 10px;
+}
+
+/* utility class to left align an image */
+.float-right {
+    float: right;
+    padding: 10px;
+}
+
+/* hack utility class to clear an image "overflow" */
+.clearfix {
+    overflow: auto;
+}
+
+.titleImageMobile {
+    width: 85vw;
+}
+
+.titleImageDesktop {
+    width: 24vw;
+}
+
+/* -------------------------------------------------------------- */
+/* Carousel */
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel-item {
+    overflow: hidden;
+}
+
+
+/* -------------------------------------------------------------- */
+/* Accordian */
+
+.accordion button {
+    /*header text*/
+    color: white;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.accordion button:hover {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.accordion .card-header {
+    background-color: black;
+    padding: .5em;
+    border-width: 2px;
+    border-top-color: white;
+}
+
+:focus {
+    /*removes blue highligh around text*/
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+/* -------------------------------------------------------------- */
+/* Tooltips */
+
+
+@media (min-width: 768px) {
+    .tooltip-inner {
+        color: white;
+        background-color: black;
+        transform: translateY(-.25em);
+    }
+
+    .webTool .bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+    .bs-tooltip-bottom .arrow::before {
+        border-bottom-color: black !important;
+        transform: translateY(-.25em);
+    }
+}
+@media (max-width: 768px) {
+    .tooltip-inner {
+        color: black;
+        background-color: white;
+        transform: translateY(-.25em);
+    }
+
+    .webTool .bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+    .bs-tooltip-bottom .arrow::before {
+        border-bottom-color: white !important;
+        transform: translateY(-.25em);
+    }
+}
+
+/* -------------------------------------------------------------- */
+/* Icons */
+.fa-white{
+    color: white;
+    margin: .1em; 
+}
+
+.fa-black{
+    color: black;
+    margin: .1em;
+}
+
+/* -------------------------------------------------------------- */
+/* Navbar */
+.navbar {
+    background-color: white;
+    box-shadow: 5px 0px 8px 0 rgba(63, 69, 81, 0.16);
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: black !important;
+    font-weight: 500;
+}
+
+.toggle {
+    color: black;
+}
+
+.toggle:hover {
+    font-weight: 700;
+}
+
+/* -------------------------------------------------------------- */
+/* Table */
+.table-sm {
+    width: 100%;
+}
+
+/* -------------------------------------------------------------- */
+/* Form */
+
+/* MOBILE */
+@media (max-width: 768px) {
+    form {
+        display: grid;
+    }
+
+    .button-submit {
+        width: 100%;
+    }
+
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+    form {
+        display: grid;
+    }
+
+    .button-submit {
+        width: 100%;
+    }
+
+    body {
+        overflow: hidden !important;
+    }
+
+}
+
+.desktopform {
+    height: 100vh;
+    padding-right: 3.5em;
+}
+
+.inlineRadio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: saturate(.1);
+}
+
+.required:after {
+    content: " *";
+    color: #ff6d44;
+    font-weight: 700;
+}
+
+
+.button-submit {
+    padding-left: .2em;
+    padding-right: .2em;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-color: transparent;
+    text-align: center;
+}
+
+.button-submit:hover {
+    transform: scale(1.01, 1.01);
+    -webkit-transform: scale(1.01, 1.01);
+    -moz-transform: scale(1.01, 1.01);
+    /* font-weight: 700; */
+    box-shadow: 0px 5px 8px 0 rgba(63, 69, 81, 0.35);
+
+}
+
+/* -------------------------------------------------------------- */
+/* Misc. */
+.xyCenter {
+    position: fixed;
+    top: 31vh
+}
+
+.yCenter {
+    position: fixed;
+    top: 31vh;
+}
+
+.xCenter {
+    position: absolute;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
