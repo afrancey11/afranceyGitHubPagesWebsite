@@ -183,9 +183,6 @@ a:hover {
     .accordion button {
         text-align: left;
     }
-    .card-body>h4{
-        font-size:3vw;
-    }
 }
 @media (max-width: 576px){
     .card-body>h4{
