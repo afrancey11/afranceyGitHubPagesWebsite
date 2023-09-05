@@ -63,7 +63,7 @@ h4 {
 }
 
 .menuShadow {
-    /*apply to onject right of menu */
+    /*apply to object right of menu */
     box-shadow: 5px 0px 8px 0 rgba(63, 69, 81, 0.16) inset;
 }
 
